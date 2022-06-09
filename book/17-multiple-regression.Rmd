@@ -324,7 +324,7 @@ check_homogeneity(mod)
 
 For assumption 8, linearity, again the plot looks fine, and we could also have used the grouped scatterplots above to look at this. 
 
-Finally, for assumption 9, multicollinearity, the plot also indicates no issues but we can also test this statistically using `check_collinearity()`.
+Finally, for assumption 8, multicollinearity, the plot also indicates no issues but we can also test this statistically using `check_collinearity()`.
 
 Essentially, this function estimates how much the variance of a coefficient is “inflated” because of linear dependence with other predictors, i.e., that a predictor isn't actually adding any unique variance to the model, it's just really strongly related to other predictors. [You can read more about this here](https://statisticalhorizons.com/multicollinearity). Thankfully, VIF is not affected by large samples like the other tests.
 
